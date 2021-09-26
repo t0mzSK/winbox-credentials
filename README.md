@@ -12,4 +12,4 @@ There isn't any solution to people who have a tons of WinBox sessions stored, or
 ```python 
 python winbox_stealer.py 
 ```
-or call it directly - ```cmd /k winbox_stealer.py"```
+or call it directly - ```cmd /k winbox_stealer.py```
