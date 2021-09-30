@@ -8,6 +8,9 @@ This isn't any type of an exploit or a serious vulnerability, but it might be a 
 # Solution
 There isn't any solution to people who have a tons of WinBox sessions stored, or it's not comfortable for them to manually type their password. I believe only possible solution is to uncheck "Keep Password" (which still leaks the host and login) in the right corner in WinBox app.
 
+# Warning
+This script is for your own and legal use only. Hacking without permission is illegal and I am not responsible for any illegal use.
+
 # Usage
 ```python 
 python winbox_stealer.py 
