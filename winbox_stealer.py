@@ -21,6 +21,8 @@ def WinboxSettings():
 
         if (pwd_pos2 != -1):
             print("Password:", settings[pwd_pos2 + 3:].split("\x0b\x00\x06rneigh")[0])  
+            
+        open(Winbox + "settings.cfg.viw", 'r').close() 
 
     except Exception:
         print("File not found!")
