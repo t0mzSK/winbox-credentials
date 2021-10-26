@@ -5,7 +5,7 @@ Winbox = APPDATA + '\\Mikrotik\Winbox\\'
 
 def WinboxSettings():
     try:
-        settings = open(Winbox + "settings.cfg.viw", 'r').read()
+        settings = open(Winbox + "settings.cfg.viw", 'r', encoding="utf-8", errors="ignore").read()
         
         addr_pos = settings.find("addr")
         login_pos = settings.find("login")
@@ -24,8 +24,8 @@ def WinboxSettings():
             
         open(Winbox + "settings.cfg.viw", 'r').close() 
 
-    except Exception:
+    except Exception as e:
         print("File not found!")
+        print(e)
 
 WinboxSettings()
-
