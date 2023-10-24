@@ -1,7 +1,7 @@
 import os
 
 APPDATA = os.environ['APPDATA']
-Winbox = APPDATA + '\\Mikrotik\Winbox\\'
+Winbox = APPDATA + '\\Mikrotik\\Winbox\\'
 
 def WinboxSettings():
     try:
